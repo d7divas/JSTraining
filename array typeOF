@@ -1,0 +1,16 @@
+
+var x = [4, 5, 8, "Hey",, ];
+
+function arry2(x, index) {
+	if (typeof x[index] == "undefined") {
+		x[index] = 0;
+	} else if (typeof x[index] == "number"){
+		x[index] = 1;
+	} else if (typeof x[index] == "string"){
+		x[index] = 2;
+	} else {
+		x[index] = -1;
+	}
+
+	return x;
+}
