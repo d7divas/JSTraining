@@ -1,0 +1,10 @@
+function check(Vehicles, xString){
+	
+	for(let i = 0; i < Vehicles.length; i++) {
+		if(Vehicles[i].id == xString){
+			return Vehicles[i];
+		} 
+	}
+	return null;
+}
+
