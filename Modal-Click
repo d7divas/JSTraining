@@ -1,0 +1,12 @@
+function modalDetail() {
+	let x = element.querySelectorAll(".vehicle_row");
+	let xArr = [].map.call(x, el => el);
+	
+	for(let i = 0; i < xArr.length; i++) {
+		var xxx = xArr[i];
+		let button = xxx.querySelector(".invViewDetails");
+		console.log(xxx);
+	}
+}
+
+	
